@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "blog_post_creator"
+version = "0.1.0"
+description = "blog_post_creator using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = "^0.51.0" }
+
+[tool.poetry.scripts]
+blog_post_creator = "blog_post_creator.main:run"
+run_crew = "blog_post_creator.main:run"
+train = "blog_post_creator.main:train"
+replay = "blog_post_creator.main:replay"
+test = "blog_post_creator.main:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

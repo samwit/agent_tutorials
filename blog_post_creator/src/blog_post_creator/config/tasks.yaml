@@ -1,0 +1,35 @@
+research_task:
+  description: >
+    Use the firecrawl tool to read and analyze the provided webpage.
+    Extract key information, interesting facts, and relevant data.
+  expected_output: >
+    A comprehensive summary of the webpage content, including main points,
+    statistics, and any unique insights related to content.
+  agent: researcher
+
+planning_task:
+  description: >
+    Review the research summary and create a detailed outline for a blog post.
+    Include main sections, subsections, and key points to be covered.
+  expected_output: >
+    A structured outline for the blog post, with clear headings, subheadings,
+    and bullet points for each section's content.
+  agent: planner
+
+writing_task:
+  description: >
+    Using the provided outline, write a full draft of the blog post.
+    Ensure the content is engaging, informative, and follows the planned structure.
+  expected_output: >
+    A complete first draft of the blog post, formatted in markdown,
+    including an introduction, body paragraphs, and conclusion.
+  agent: writer
+
+editing_task:
+  description: >
+    Review the blog post draft, focusing on improving clarity, coherence, and overall quality.
+    Check for grammar, style, and factual accuracy. Make necessary edits and suggestions.
+  expected_output: >
+    An edited version of the blog post with tracked changes and comments,
+    along with a summary of major improvements and suggestions.
+  agent: editor
