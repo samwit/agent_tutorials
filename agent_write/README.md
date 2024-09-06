@@ -14,22 +14,6 @@ This project leverages LangGraph to orchestrate a series of language model inter
 - Flexible workflow management using LangGraph
 - Markdown output for generated content
 
-## Installation
-
-1. Ensure you have Python 3.11 or later installed.
-2. Clone this repository:
-   ```
-   git clone https://github.com/yourusername/AgentWrite-LangGraph.git
-   cd AgentWrite-LangGraph
-   ```
-3. Install Poetry if you haven't already:
-   ```
-   pip install poetry
-   ```
-4. Install project dependencies:
-   ```
-   poetry install
-   ```
 
 ## Usage
 
@@ -41,27 +25,10 @@ This project leverages LangGraph to orchestrate a series of language model inter
 
 2. Run the main script:
    ```
-   poetry run python -m agentwrite
+   python -m agentwrite
    ```
 
-## Configuration
 
-You can configure the project by modifying the `config.py` file. This includes settings for:
 
-- Test instructions
-- Language model selection
-- Output file paths
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- LangChain and LangGraph for providing the foundational tools
-- OpenAI, GROQ, and OLLaMA for their language models
 
